@@ -1,16 +1,16 @@
 let canvas; // Canvas einbinden
 let ctx; // malen
-let character = new Image(); // Bild des Charakters
+// let character = new Image(); // Bild des Charakters
+let character = new MovableObject();
 
 function init() {
     canvas = document.getElementById('canvas') // canvas laden
     ctx = canvas.getContext('2d');
 
+    console.log('My Character is', character); // BILD 5 - man ruft ein JSON mit den vorgegebenen Eigenschaften auf
 
-    character.src = '../img/2_walk/2_WALK_000.png' // Bild vom Wizz einfügen
-
-
-    ctx.drawImage(character, 20, 20, 50, 150); // Koordinaten und Parameter des Bildes
+    // character.src = '../img/2_walk/2_WALK_000.png'; // Bild vom Wizz einfügen
+    // ctx.drawImage(character, 20, 20, 50, 150); // Koordinaten und Parameter des Bildes
 }
 
 /**
@@ -70,6 +70,11 @@ function init() {
  * -> strukturierter coden
  * -> Vererbung - gemeinsames BILD 4.4 - greifbarer
  * 
+ * ----- 05 - Erste Klasse implementieren -----
  * 
+ * -> Praxis mit der "Vererbung"
+ * -> classes - movable-object.class.js erstellen
+ * -> BILD 5 - man ruft ein JSON mit den vorgegebenen Eigenschaften auf
+
  * 
  */
