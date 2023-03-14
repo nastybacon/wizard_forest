@@ -28,5 +28,9 @@
  * -> verändern + verkaufen
  * -> wir brauche Elemente vom BILD 2.1, 2.2 uns 2.3 -> Entgegner
  * 
- * 
+ * -----  02 - Projektstruktur ----- 
+ *
+ * -> die wichtigsten Ordner hinzufügen
+ * -> JS + IMG + AUDIO 
+ * -> Canvas erstellen + CSS und JS einbinden - BILD 2.4
  */
