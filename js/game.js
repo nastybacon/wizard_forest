@@ -75,6 +75,26 @@ function init() {
  * -> Praxis mit der "Vererbung"
  * -> classes - movable-object.class.js erstellen
  * -> BILD 5 - man ruft ein JSON mit den vorgegebenen Eigenschaften auf
-
+ *
+ * ----- 06 - Klassen -----
+ * 
+ * -> man kann mit OO leichter programmieren
+ * -> uns das Leben durch Klassen leichter machen
+ * -> wir definieren eine Kasse und packen alle dazugehörigen Dateien rein
+ * -> Echtes Objekt - Abbild der echten Welt
+ * -> Klassen => alle Funktionen von einem Objekt
+ * -> Beispiel BILD 6.1
+ * 
+ * -> world.class.js + character.class.js + chicken.class.js
+ * -> MovableObject - Character + Chicken teilen bestimmte Eigenschaften
+ * 
+ * -> es gibt eine X und Y Koordinate bei dem Charakter + Chicken
+ * -> Bild 6.2 - 1 Welt und - * entweder P1 oder P2
+ * 
+ * -> Kohäsion - alles gekapsellt - alles, wa slogisch zusammen passt, kommt in ein Objekt
+ * -> Vererbung - Überklasse mit den gemeinsammen Eigenschaften
+ * 
+ * 
+ * 
  * 
  */
