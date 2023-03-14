@@ -100,6 +100,8 @@ function init() {
  * -> character.class.js definieren
  * -> enemy.class.js - für den Feind
  * 
+ * -----  08 - Bilder einfügen -----
  * 
+ * -> 
  * 
  */
