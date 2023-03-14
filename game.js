@@ -55,4 +55,21 @@ function init() {
  * -> Bild einfügen (relativen pfad kopieren)
  * 
  * -> Kontrolieren ob die variablen "character" und "canvas" zu sehen sind -> BILD 1
+ *
+ * ----- 04 - Objektorientierung -----
+ * 
+ * -> alle Character haben im Prinzip den selben Code - BILD 2
+ * -> mit JSON Array BILD 3 + 4 -> gute Lösung
+ * -> macht jedoch Probleme:
+ *  - Funktionen 
+ *  - Geteilte Funktionalität - zufälliges Laufen
+ *  - Schwer zu berstehen
+ *  - Unübersichtlich
+ * 
+ * -> Lösung: Obkejtorientierung BILD 4.2 + 4.3
+ * -> strukturierter coden
+ * -> Vererbung - gemeinsames BILD 4.4 - greifbarer
+ * 
+ * 
+ * 
  */
