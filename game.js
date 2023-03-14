@@ -1,3 +1,18 @@
+let canvas; // Canvas einbinden
+let ctx; // malen
+let character = new Image(); // Bild des Charakters
+
+function init() {
+    canvas = document.getElementById('canvas') // canvas laden
+    ctx = canvas.getContext('2d');
+
+
+    character.src = '../img/2_walk/2_WALK_000.png' // Bild vom Wizz einfügen
+
+
+    ctx.drawImage(character, 20, 20, 50, 150); // Koordinaten und Parameter des Bildes
+}
+
 /**
  * OBJEKTE ERSTELLEN
  * 
@@ -33,4 +48,11 @@
  * -> die wichtigsten Ordner hinzufügen
  * -> JS + IMG + AUDIO 
  * -> Canvas erstellen + CSS und JS einbinden - BILD 2.4
+ * 
+ * -----  03 - Grafik einfügen -----
+ * 
+ * -> onload einfügen + init() erstellen
+ * -> Bild einfügen (relativen pfad kopieren)
+ * 
+ * -> Kontrolieren ob die variablen "character" und "canvas" zu sehen sind -> BILD 1
  */
