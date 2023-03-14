@@ -1,13 +1,14 @@
 let canvas; // Canvas einbinden
 let ctx; // malen
 // let character = new Image(); // Bild des Charakters
-let character = new MovableObject();
+
+let world = new World(); // neue Variable = neue Welt
 
 function init() {
     canvas = document.getElementById('canvas') // canvas laden
     ctx = canvas.getContext('2d');
 
-    console.log('My Character is', character); // BILD 5 - man ruft ein JSON mit den vorgegebenen Eigenschaften auf
+    console.log('My Character is', world.character); // BILD 5 - man ruft ein JSON mit den vorgegebenen Eigenschaften auf
 
     // character.src = '../img/2_walk/2_WALK_000.png'; // Bild vom Wizz einfügen
     // ctx.drawImage(character, 20, 20, 50, 150); // Koordinaten und Parameter des Bildes
@@ -94,6 +95,10 @@ function init() {
  * -> Kohäsion - alles gekapsellt - alles, wa slogisch zusammen passt, kommt in ein Objekt
  * -> Vererbung - Überklasse mit den gemeinsammen Eigenschaften
  * 
+ * ----- 07 - Klassen anlegen -----
+ * 
+ * -> character.class.js definieren
+ * -> enemy.class.js - für den Feind
  * 
  * 
  * 

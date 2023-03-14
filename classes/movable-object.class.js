@@ -5,6 +5,9 @@ class MovableObject { // Shablone erstellt
 
     moveRight() {
         console.log('Moving right');
-        
+
+    }
+    moveLeft() { // nach links laufen (entgegen dem Character)
+
     }
 }
