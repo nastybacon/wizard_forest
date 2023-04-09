@@ -1,11 +1,13 @@
 let canvas; // Canvas einbinden
-let ctx; // malen
+// let ctx; // malen
 // let character = new Image(); // Bild des Charakters
+let world; // unsere Welt in der init() Methode definieren
 
-let world = new World(); // neue Variable = neue Welt
+// let world = new World(); // neue Variable = neue Welt
 
 function init() {
-    canvas = document.getElementById('canvas') // canvas laden
+    canvas = document.getElementById('canvas'); // canvas laden
+    world = new World(canvas); // definieren + Variable mitgeben
     ctx = canvas.getContext('2d');
 
     console.log('My Character is', world.character); // BILD 5 - man ruft ein JSON mit den vorgegebenen Eigenschaften auf
@@ -102,6 +104,11 @@ function init() {
  * 
  * -----  08 - Bilder einfügen -----
  * 
- * -> 
+ * -> Bild im Constructor bei Character  + Enemy eingeben 
+ * -> constructor(){ super().loadImage('img/xxx.png');}
+ * 
+ * ----- 9 - Character anzeigen -----
+ * 
+ * ->
  * 
  */
